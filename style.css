@@ -42,8 +42,24 @@ body {
     outline: none;
     border: none;
     cursor: pointer;
+    color: yellow;
 }
 
+#cta-btn {
+    background-color: black;
+    color: yellow;
+    font-size: 14px;
+    height: 40px;
+    width: 75px;
+}
+
+#cta-btn a {
+    color: yellow;
+}
+
+#cta-btn a:hover {
+    background-color: darkcyan;
+}
 .socials-section {
     display: block;
     text-decoration: none;
