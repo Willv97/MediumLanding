@@ -26,3 +26,30 @@ body {
     margin: 2px;
     padding: 2px;
 }
+
+.featured-posts-section {
+    color: rgb(34, 35, 32);
+}
+
+.cta-section {
+    text-align: center;
+    justify-content: center;
+    display: block;
+    font-size: 22px;
+    padding: 3px;
+    margin: 3px;
+    gap: 1px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.socials-section {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    padding: 0 5px;
+    margin: 2px;
+}
