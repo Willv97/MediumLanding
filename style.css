@@ -6,21 +6,26 @@
 body {
     background-color: rgb(138, 138, 138);
     color: rgb(11, 11, 11);
-    padding: 2px;
-    margin: 2px;
-    font-size: 14px;
+    padding: 4px;
+    margin: 4px;
+    font-size: 16px;
 }
 
 .hero-section {
     text-align: center;
+    background-color: rgb(86, 85, 85);
     border: 2px;
     outline: 2px;
     margin: 2px;
     padding: 2px;
-    font-size: 20px;
+    font-size: 26px;
+    height: 20vh;
+    width: 100%;
 }
 
 .about-section {
+    text-align: center;
+    justify-content: center;
     color: rgb(34, 35, 32);
     font-size: 18px;
     margin: 2px;
@@ -28,7 +33,28 @@ body {
 }
 
 .featured-posts-section {
-    color: rgb(34, 35, 32);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(105px, 1 fr));
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.featured-posts-img {
+    
+}
+
+img {
+    height: 100px;
+    border: 1px solid limegreen;
+    border-radius: 20px;
+    padding-left: 5px;
+    width: 120px;
+    object-fit: cover;
+}
+
+.featured-posts-img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
 .cta-section {
@@ -36,9 +62,9 @@ body {
     justify-content: center;
     display: block;
     font-size: 22px;
-    padding: 3px;
-    margin: 3px;
-    gap: 1px;
+    padding: 10px;
+    margin: 10px;
+    gap: 4px;
     outline: none;
     border: none;
     cursor: pointer;
