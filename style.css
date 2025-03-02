@@ -40,6 +40,15 @@ body {
     align-items: center;
 }
 
+.post {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.post h3 {
+    margin: 0;
+}
+
 .featured-posts-img {
     color: chocolate;
 }
