@@ -2,6 +2,8 @@
 //.then(response => response.json()) //Convert the response to json
 //.then(data => console.log(data)) // Log the result
 //.catch(error => console.error('Error fetching Medium data')); // Handle errors 
+
+// function to get medium posts
 async function fetchMediumPosts() {
     const feedUrl = "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@willv1357";
 
@@ -29,4 +31,4 @@ async function fetchMediumPosts() {
     }
 }
 
-fetchMediumPosts();
+fetchMediumPosts(); //display medium posts
