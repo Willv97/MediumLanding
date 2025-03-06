@@ -10,7 +10,19 @@ body {
     margin: 4px;
     font-size: 16px;
 }
+.navBar {
+    display: flexbox;
+    justify-content: space-between;
+}
 
+.navBar a {
+    color: navy;
+    box-shadow: 3 3 3px lightblue;
+}
+
+.navBar a:hover {
+    color: lightblue;
+}
 .hero-section {
     text-align: center;
     background-color: rgb(86, 85, 85);
