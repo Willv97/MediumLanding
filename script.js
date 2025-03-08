@@ -33,3 +33,8 @@ async function fetchMediumPosts() {
 }
 
 fetchMediumPosts(); // display medium posts
+
+function darkMode() {
+    var darkMode = document.body;
+    darkMode.classList.toggle("darkMode");
+}

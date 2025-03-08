@@ -10,6 +10,12 @@ body {
     margin: 4px;
     font-size: 16px;
 }
+
+.darkMode {
+    background-color: black;
+    color: white;
+}
+
 .navBar {
     display: flexbox;
     justify-content: space-between;
