@@ -13,7 +13,23 @@ body {
 
 .darkMode {
     background-color: black;
-    color: white;
+    color: pink;
+}
+
+.toggleBtn {
+    color: #000;
+    font-size: large;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    cursor: pointer;
+}
+
+.toggleBtn:hover {
+    background-color: cornsilk;
 }
 
 .navBar {
