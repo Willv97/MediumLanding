@@ -32,7 +32,7 @@ body {
     background-color: cornsilk;
 }
 
-.navBar {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -83,6 +83,27 @@ body {
     display: none;
     font-size: 1.5rem;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: relative;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: #444;
+        padding: 1rem 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
 }
 .hero-section {
     text-align: center;
