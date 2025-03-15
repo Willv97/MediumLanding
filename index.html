@@ -11,13 +11,16 @@
         <h1>Check out my Blog on Medium !!</h1>
     </header>
 
-    <nav class="navBar"></nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="otherWork.html">Other Work</a></li>
-            <li><a href="newsletterSignup.html">News Letter Signup</a></li>
-            <li><a href="new.html">Click</a></li>
+    <nav class="navbar">
+        <div class="logo">Logo</div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-item">Home</a></li>
+            <li><a href="newsletterSignup.html" class="nav-item">Newsletter</a></li>
+            <li><a href="otherWork.html" class="nav-item">Other Works</a></li>
         </ul>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
     </nav>
 
     <button class="toggleBtn" onclick="darkMode()">Toggle Dark Mode</button>
